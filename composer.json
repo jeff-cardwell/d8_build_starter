@@ -40,8 +40,6 @@
             "modules/contrib/{$name}": ["type:drupal-module"],
             "profiles/contrib/{$name}": ["type:drupal-profile"],
             "themes/contrib/{$name}": ["type:drupal-theme"]
-
-
         }
     },
     "scripts": {
