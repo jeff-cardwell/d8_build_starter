@@ -34,11 +34,13 @@
     },
     "extra": {
         "installer-paths": {
+            "profiles/custom/{$name}": ["jeff-cardwell/d8_profile_starter"],
+
             "modules/contrib/{$name}": ["type:drupal-module"],
             "profiles/contrib/{$name}": ["type:drupal-profile"],
-            "themes/contrib/{$name}": ["type:drupal-theme"],
+            "themes/contrib/{$name}": ["type:drupal-theme"]
 
-            "profiles/custom/{$name}": ["jeff-cardwell/d8_profile_starter"]
+
         }
     },
     "scripts": {
