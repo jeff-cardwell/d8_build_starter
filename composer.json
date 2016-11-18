@@ -30,7 +30,7 @@
         "d8_starter_profile": {
             "type": "vcs",
             "url": "git@gitlab.com:wwg/wwg8_profile.git"
-        },
+        }
     },
     "extra": {
         "installer-paths": {
