@@ -1,0 +1,13 @@
+{
+    "name": "wwg8/wwg8_build",
+    "description": "The root composer project for the Warren Wildlife Gallery Drupal 8 website",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Jeff Cardwell",
+            "email": "jeffcardwellbusiness@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
