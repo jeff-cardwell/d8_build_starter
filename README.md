@@ -11,3 +11,5 @@
 ```
 composer require jeff-cardwell/d8_profile_starter
 ```
+
+5. Following initial install base configuration, add config files to `config/install` folder.  For future installs, select "config_installer" as the install profile.
