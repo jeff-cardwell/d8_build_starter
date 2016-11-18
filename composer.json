@@ -1,6 +1,6 @@
 {
-    "name": "wwg8/wwg8_build",
-    "description": "The root composer project for the Warren Wildlife Gallery Drupal 8 website",
+    "name": "jeff-cardwell/d8_build_starter",
+    "description": "Starter build for a Drupal 8 website",
     "license": "GPL-2.0+",
     "authors": [
         {
@@ -9,5 +9,39 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "composer/installers": "^1.2",
+        "drupal-composer/drupal-scaffold": "^2.2",
+        "drupal/core": "^8.2"
+    },
+    "require-dev": {
+        "drush/drush": "^8.1",
+        "drupal/console": "^0.11.3",
+        "drupal/devel": "1.x-dev"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "d8_profile_starter": {
+            "type": "vcs",
+            "url": "git@gitlab.com:wwg/wwg8_profile.git"
+        }
+    },
+    "extra": {
+        "installer-paths": {
+            "modules/contrib/{$name}": ["type:drupal-module"],
+            "profiles/contrib/{$name}": ["type:drupal-profile"],
+            "themes/contrib/{$name}": ["type:drupal-theme"],
+
+            "profiles/custom/{$name}": ["jeff-cardwell/d8_profile_starter"]
+        }
+    },
+    "scripts": {
+        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+    }
 }
