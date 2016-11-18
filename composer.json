@@ -1,6 +1,6 @@
 {
-    "name": "wwg8/wwg8_build",
-    "description": "The root composer project for the Warren Wildlife Gallery Drupal 8 website",
+    "name": "jeff_cardwell/d8_build_starter",
+    "description": "Starter build for a Drupal 8 website",
     "license": "GPL-2.0+",
     "authors": [
         {
@@ -27,7 +27,7 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
-        "d8_starter_profile": {
+        "d8_profile_starter": {
             "type": "vcs",
             "url": "git@gitlab.com:wwg/wwg8_profile.git"
         }
@@ -38,7 +38,7 @@
             "profiles/contrib/{$name}": ["type:drupal-profile"],
             "themes/contrib/{$name}": ["type:drupal-theme"],
 
-            "profiles/custom/{$name}": ["jeff_cardwell/d8_starter_profile"]
+            "profiles/custom/{$name}": ["jeff_cardwell/d8_profile_starter"]
         }
     },
     "scripts": {
