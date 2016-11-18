@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ed4b866058fa272e785763799858f2bd",
-    "content-hash": "6b4fe01fc645ea21347484e0e304e30f",
+    "hash": "acfb59cacf463bd1b1ff949a9bcb6226",
+    "content-hash": "32bf81f73262dc088159e648e3236a4a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -656,6 +656,43 @@
             ],
             "description": "Composer Plugin for updating the Drupal scaffold files when using drupal/core",
             "time": "2016-11-05 10:46:44"
+        },
+        {
+            "name": "drupal/config_installer",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/config_installer",
+                "reference": "128ab9096391ba7d078a6e1c180d613c6bc1176b"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-profile",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.3+3-dev",
+                    "datestamp": "1467836568"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "alexpott",
+                    "homepage": "https://www.drupal.org/user/157725"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/config_installer",
+            "support": {
+                "source": "http://cgit.drupalcode.org/config_installer"
+            },
+            "time": "2016-05-09 12:21:05"
         },
         {
             "name": "drupal/core",
@@ -3070,12 +3107,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/output-formatters.git",
-                "reference": "7bf51d48819b939e46fb6e1dc55de271e3dd9ca0"
+                "reference": "1b93d53a9d91239c0fa4bcbce29a9b88bb70273e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/7bf51d48819b939e46fb6e1dc55de271e3dd9ca0",
-                "reference": "7bf51d48819b939e46fb6e1dc55de271e3dd9ca0",
+                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/1b93d53a9d91239c0fa4bcbce29a9b88bb70273e",
+                "reference": "1b93d53a9d91239c0fa4bcbce29a9b88bb70273e",
                 "shasum": ""
             },
             "require": {
@@ -3111,7 +3148,7 @@
                 }
             ],
             "description": "Format text by applying transformations provided by plug-in formatters.",
-            "time": "2016-11-18 19:13:25"
+            "time": "2016-11-18 19:32:48"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3310,8 +3347,7 @@
                 "source": "http://cgit.drupalcode.org/devel",
                 "issues": "http://drupal.org/project/devel",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
-            },
-            "time": "2016-11-15 17:33:24"
+            }
         },
         {
             "name": "drush/drush",
