@@ -3347,7 +3347,8 @@
                 "source": "http://cgit.drupalcode.org/devel",
                 "issues": "http://drupal.org/project/devel",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
-            }
+            },
+            "time": "2016-11-15 17:33:24"
         },
         {
             "name": "drush/drush",
