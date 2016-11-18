@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f5eede25d0b4ab2015c18995f4b423a0",
-    "content-hash": "c77550e811a2b4a8ff9aa9ce588e6cd6",
+    "hash": "ed4b866058fa272e785763799858f2bd",
+    "content-hash": "6b4fe01fc645ea21347484e0e304e30f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3070,12 +3070,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/output-formatters.git",
-                "reference": "bf0dce6f70be9b5abbf836534b8ff6fefffe3569"
+                "reference": "7bf51d48819b939e46fb6e1dc55de271e3dd9ca0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/bf0dce6f70be9b5abbf836534b8ff6fefffe3569",
-                "reference": "bf0dce6f70be9b5abbf836534b8ff6fefffe3569",
+                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/7bf51d48819b939e46fb6e1dc55de271e3dd9ca0",
+                "reference": "7bf51d48819b939e46fb6e1dc55de271e3dd9ca0",
                 "shasum": ""
             },
             "require": {
@@ -3111,7 +3111,7 @@
                 }
             ],
             "description": "Format text by applying transformations provided by plug-in formatters.",
-            "time": "2016-11-18 18:01:41"
+            "time": "2016-11-18 19:13:25"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3310,7 +3310,8 @@
                 "source": "http://cgit.drupalcode.org/devel",
                 "issues": "http://drupal.org/project/devel",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
-            }
+            },
+            "time": "2016-11-15 17:33:24"
         },
         {
             "name": "drush/drush",
@@ -3318,12 +3319,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "ebc15e71da6ca533f09e20b7088fcfa1d5a43572"
+                "reference": "7bfbdaeccc1cfcd9e27620ebcde01505f72c75d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/ebc15e71da6ca533f09e20b7088fcfa1d5a43572",
-                "reference": "ebc15e71da6ca533f09e20b7088fcfa1d5a43572",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/7bfbdaeccc1cfcd9e27620ebcde01505f72c75d9",
+                "reference": "7bfbdaeccc1cfcd9e27620ebcde01505f72c75d9",
                 "shasum": ""
             },
             "require": {
@@ -3415,7 +3416,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2016-11-18 15:57:05"
+            "time": "2016-11-18 18:45:54"
         },
         {
             "name": "gabordemooij/redbean",
