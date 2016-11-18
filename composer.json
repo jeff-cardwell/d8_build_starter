@@ -1,5 +1,5 @@
 {
-    "name": "jeff_cardwell/d8_build_starter",
+    "name": "jeff-cardwell/d8_build_starter",
     "description": "Starter build for a Drupal 8 website",
     "license": "GPL-2.0+",
     "authors": [
@@ -38,7 +38,7 @@
             "profiles/contrib/{$name}": ["type:drupal-profile"],
             "themes/contrib/{$name}": ["type:drupal-theme"],
 
-            "profiles/custom/{$name}": ["jeff_cardwell/d8_profile_starter"]
+            "profiles/custom/{$name}": ["jeff-cardwell/d8_profile_starter"]
         }
     },
     "scripts": {
