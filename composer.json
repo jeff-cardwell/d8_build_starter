@@ -9,5 +9,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "composer/installers": "^1.2",
+        "drupal-composer/drupal-scaffold": "^2.2",
+        "drupal/core": "^8.2"
+    }
 }
