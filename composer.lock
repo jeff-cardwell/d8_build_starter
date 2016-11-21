@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "acfb59cacf463bd1b1ff949a9bcb6226",
+    "hash": "f9b761f8cb7c284f3a6553c8da60b1ad",
     "content-hash": "32bf81f73262dc088159e648e3236a4a",
     "packages": [
         {
@@ -700,12 +700,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-composer/drupal-core.git",
-                "reference": "705e23aea5701c456c6122823ca55adbe821547d"
+                "reference": "da9b273d727a0a5ba323fc1417b5a01a7ccd4553"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/705e23aea5701c456c6122823ca55adbe821547d",
-                "reference": "705e23aea5701c456c6122823ca55adbe821547d",
+                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/da9b273d727a0a5ba323fc1417b5a01a7ccd4553",
+                "reference": "da9b273d727a0a5ba323fc1417b5a01a7ccd4553",
                 "shasum": ""
             },
             "require": {
@@ -870,7 +870,7 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2016-11-18 11:28:59"
+            "time": "2016-11-21 13:48:39"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -1701,12 +1701,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "447a3c28cb5ab7129757d43eae22f2f02d8c70b5"
+                "reference": "9d2c5033ca70ceade8d7584f997a9d3943f0fe5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/447a3c28cb5ab7129757d43eae22f2f02d8c70b5",
-                "reference": "447a3c28cb5ab7129757d43eae22f2f02d8c70b5",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/9d2c5033ca70ceade8d7584f997a9d3943f0fe5f",
+                "reference": "9d2c5033ca70ceade8d7584f997a9d3943f0fe5f",
                 "shasum": ""
             },
             "require": {
@@ -1756,7 +1756,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-03 07:52:58"
+            "time": "2016-11-18 21:10:01"
         },
         {
             "name": "symfony/dom-crawler",
@@ -1935,12 +1935,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "c979fb29de1721d49cc46855d4cb1da5e15389f4"
+                "reference": "f4afb3094604940d5d95da16b862249393796a77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/c979fb29de1721d49cc46855d4cb1da5e15389f4",
-                "reference": "c979fb29de1721d49cc46855d4cb1da5e15389f4",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/f4afb3094604940d5d95da16b862249393796a77",
+                "reference": "f4afb3094604940d5d95da16b862249393796a77",
                 "shasum": ""
             },
             "require": {
@@ -2009,7 +2009,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-07 19:34:39"
+            "time": "2016-11-21 02:42:55"
         },
         {
             "name": "symfony/polyfill-apcu",
@@ -2544,12 +2544,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "30a3552f917d2a2047b36dc44e1c10ca681371cc"
+                "reference": "edbe67e8f729885b55421d5cc58223d48540df07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/30a3552f917d2a2047b36dc44e1c10ca681371cc",
-                "reference": "30a3552f917d2a2047b36dc44e1c10ca681371cc",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/edbe67e8f729885b55421d5cc58223d48540df07",
+                "reference": "edbe67e8f729885b55421d5cc58223d48540df07",
                 "shasum": ""
             },
             "require": {
@@ -2600,7 +2600,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-14 16:15:57"
+            "time": "2016-11-18 21:10:01"
         },
         {
             "name": "symfony/validator",
@@ -2608,12 +2608,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/validator.git",
-                "reference": "d5b04d6cae50275664886e07ec270052f0848284"
+                "reference": "c4ef882117461a4151064ad16c5d638dd1c70b9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/validator/zipball/d5b04d6cae50275664886e07ec270052f0848284",
-                "reference": "d5b04d6cae50275664886e07ec270052f0848284",
+                "url": "https://api.github.com/repos/symfony/validator/zipball/c4ef882117461a4151064ad16c5d638dd1c70b9e",
+                "reference": "c4ef882117461a4151064ad16c5d638dd1c70b9e",
                 "shasum": ""
             },
             "require": {
@@ -2673,7 +2673,7 @@
             ],
             "description": "Symfony Validator Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-15 23:02:12"
+            "time": "2016-11-18 21:10:01"
         },
         {
             "name": "symfony/yaml",
@@ -2730,12 +2730,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "a1eb0f560136e6c67e36eb5e0565c279b9e29198"
+                "reference": "ed6e8972aca32f27d36f5d625b8f041723c9b94f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/a1eb0f560136e6c67e36eb5e0565c279b9e29198",
-                "reference": "a1eb0f560136e6c67e36eb5e0565c279b9e29198",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ed6e8972aca32f27d36f5d625b8f041723c9b94f",
+                "reference": "ed6e8972aca32f27d36f5d625b8f041723c9b94f",
                 "shasum": ""
             },
             "require": {
@@ -2743,7 +2743,7 @@
             },
             "require-dev": {
                 "symfony/debug": "~2.7",
-                "symfony/phpunit-bridge": "~2.7"
+                "symfony/phpunit-bridge": "~3.2@dev"
             },
             "type": "library",
             "extra": {
@@ -2783,7 +2783,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-11-18 15:09:22"
+            "time": "2016-11-19 19:44:10"
         },
         {
             "name": "zendframework/zend-diactoros",
@@ -3107,12 +3107,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/output-formatters.git",
-                "reference": "1b93d53a9d91239c0fa4bcbce29a9b88bb70273e"
+                "reference": "16c2313d755ea7e3dee72127c07f4bdb2ccf16d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/1b93d53a9d91239c0fa4bcbce29a9b88bb70273e",
-                "reference": "1b93d53a9d91239c0fa4bcbce29a9b88bb70273e",
+                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/16c2313d755ea7e3dee72127c07f4bdb2ccf16d7",
+                "reference": "16c2313d755ea7e3dee72127c07f4bdb2ccf16d7",
                 "shasum": ""
             },
             "require": {
@@ -3148,7 +3148,7 @@
                 }
             ],
             "description": "Format text by applying transformations provided by plug-in formatters.",
-            "time": "2016-11-18 19:32:48"
+            "time": "2016-11-21 00:56:19"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3347,7 +3347,8 @@
                 "source": "http://cgit.drupalcode.org/devel",
                 "issues": "http://drupal.org/project/devel",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
-            }
+            },
+            "time": "2016-11-15 17:33:24"
         },
         {
             "name": "drush/drush",
@@ -3852,12 +3853,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "f9f95af921e6cc10fde0e98ffee73c642551e874"
+                "reference": "de3bb2e300d972e0eaf349e62be3722f771edd17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/f9f95af921e6cc10fde0e98ffee73c642551e874",
-                "reference": "f9f95af921e6cc10fde0e98ffee73c642551e874",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/de3bb2e300d972e0eaf349e62be3722f771edd17",
+                "reference": "de3bb2e300d972e0eaf349e62be3722f771edd17",
                 "shasum": ""
             },
             "require": {
@@ -3936,7 +3937,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2016-11-18 04:18:47"
+            "time": "2016-11-21 00:13:41"
         },
         {
             "name": "psy/psysh",
